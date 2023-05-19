@@ -9,7 +9,8 @@
 # (Fixes) if the page is stuck in specific percentage ?!
   (Sol) Delete all your caches, cookies and try again
 
-# This is pre release so many updates are gonna release soon !
-#  Programmed for the arabic people only 
+# Notes
+ This is pre release so many updates are gonna release soon !
+  Programmed for the arabic people only 
 
-# Credits: Darkmodder, theflow, Fire30
+ Credits: Darkmodder, theflow, Fire30
