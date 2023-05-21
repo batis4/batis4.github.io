@@ -1,0 +1,112 @@
+<html manifest="offlineCache.manifest">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<style>
+		.button {
+		  background-color: #242321;  
+		  border-radius: 10px;
+		  color: white;
+		  padding: .10em;
+		  text-decoration: none;
+		  height:100%;
+		  display:inline-table;
+		  margin-top: -10px;
+		  margin-bottom: -10px;
+		  font-family: "Times New Roman", Times, serif;
+		}
+
+		.button:focus,
+		.button:hover {
+		  background-color: #242321;
+		  color: White;
+		}
+
+		.titlehead {
+		  background-color: #242321;  
+		  border-radius: 5px;
+		  color: white;
+		  padding: .5em;
+		  text-decoration: none;
+		  text-align: center;
+		  margin-top: -10px;
+		  margin-bottom: -10px;
+		  font-family: "Times New Roman", Times, serif;
+		}
+
+		.titlehead:focus,
+		.titlehead:hover {
+		  background-color: #242321;
+		  color: White;
+		}
+
+		.bg {
+		  /* The image used */
+		  background-image: url("alnoamany.jpg");
+
+		  
+
+		  /* Center and scale the image nicely */
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+	</style>
+	<head>
+		<title>تهكير 9.00</title>
+		<script>
+			function loadcomplete() {
+				document.getElementById("progress").innerHTML=sessionStorage.Queue+" تمت بنجاح !!";
+				sessionStorage.Queue="";
+			}
+		</script>
+		<script src="int64.js"></script>
+		<script src="rop.js"></script>
+		<script src="kexploit.js"></script>
+		<script src="webkit.js"></script>
+		<script src="payloads.js"></script>
+	</head>
+	<body class="bg">
+		<script>
+			window.onload = function(e){if(sessionStorage.Queue==null){sessionStorage.Queue="";}else if(sessionStorage.Queue!=""){executependingqueue(sessionStorage.Queue);}};
+			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="حفظ الصفحة بدأ!!"};
+			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML="حالة الحفظ: "+(Math.round(100*(a.loaded/a.total)))+"% اكتمل"};
+			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="تم حفظ الصفحة بنجاح";setTimeout(function(){document.getElementById("progress").innerHTML="قم بإطفاء الانترنت واعد فتح الصفحة!!"; }, 1500);};
+		</script>
+		<h1 id="progress" class="titlehead"> صل على النبي!! </h1><hr><br>
+		<input type="hidden" id="psip" value="localhost"/>
+		<div>
+			<table align="center" style="width:600px;margin-top:30px;">
+			<tr>
+			<td align="center" id="exploit" colspan="2">
+			<a href="#" class="button" onclick="goldhen(); return false" style="width:90%">Test - تهكير 9.00 النعماني</a>
+			</td>
+			</tr>
+			<tr><td><br/></td></tr>
+			<tr>
+			<td colspan="2" align="center"><hr><br></td>
+			</tr>
+			<tr>
+			<td align="center" colspan="2"><a href="#" class="button" onclick="app2usb(); return false" style="width:49%">يو إس بي</a>
+			<a href="#" class="button" onclick="appdumper(); return false" style="width:49%">الدمبر</a></td>
+			</tr><tr><td><br/></td></tr>
+			<tr>
+			<td align="center" colspan="2"><a href="#" class="button" onclick="disableupdates();return false" style="width:49%">إلغاء التحديثات</a>
+			<a href="#" class="button" onclick="enableupdates(); return false" style="width:49%">تفعيل التحديثات</a></td>
+			</tr><tr><td><br/></td></tr>
+			<tr>
+			<tr>
+			<td align="center" colspan="9">
+			<a href="#" class="button" onclick="ftp(); return false" style="width:49%">إف تي بي</a>
+			<a href="#" class="button" onclick="fanthreshold(temp.value); return false" style="width:43%;border-radius: 5px 0px 0px 5px;">ضبط مروحة البلاي ستيشن</a>
+			<select id="temp" style="height:42px;border-radius: 0px 5px 5px 0px;position: absolute;" class="button">
+			<option value="40">40°C</option><option value="41">41°C</option><option value="42">42°C</option><option value="43">43°C</option><option value="44">44°C</option><option value="45">45°C</option><option value="46">46°C</option><option value="47">47°C</option><option value="48">48°C</option><option value="49">49°C</option><option value="50">50°C</option><option value="51">51°C</option><option value="52">52°C</option><option value="53">53°C</option><option value="54">54°C</option><option value="55">55°C</option><option value="56">56°C</option><option value="57">57°C</option><option value="58">58°C</option><option value="59">59°C</option><option value="60">60°C</option><option value="61">61°C</option><option value="62">62°C</option><option value="63">63°C</option><option value="64">64°C</option><option value="65">65°C</option><option value="66">66°C</option><option value="67">67°C</option><option value="68">68°C</option><option value="69">69°C</option><option value="70" selected>70°C</option><option value="71">71°C</option><option value="72">72°C</option><option value="73">73°C</option><option value="74">74°C</option><option value="75">75°C</option><option value="76">76°C</option><option value="77">77°C</option><option value="78">78°C</option><option value="79">79°C</option>
+			</select>
+			</td>
+			</tr><tr><td><br/></td></tr>
+			<tr>
+			
+			
+		
+			</tr>
+			</table></div>
+	</body>
+</html>
