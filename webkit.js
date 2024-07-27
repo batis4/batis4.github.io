@@ -118,7 +118,6 @@ function poc() {
     }
     while (guessed_addr === null);
 	//alert("GUESSED FONT: "+guessed_font+"\nGUESSED ADDR: "+guessed_addr+"\nGUF Val: "+guf+"\nLoop Count: "+round);
-	alert("جاري تحميل التهكير.. الرجاء الضغط على موافق");
     var p_s = '';
     p_s += ptrToString(26);
     p_s += ptrToString(guessed_addr);
